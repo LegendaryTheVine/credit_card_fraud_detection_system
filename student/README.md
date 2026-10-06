@@ -12,12 +12,14 @@ Download the dataset as described in `data/README.md`.
 
 ## Layout
 - `assignments/` - one folder per day: read its `README.md`, fill in `submission.md`
+- `notes/` - teaching notes for every day: the lesson, then how to attempt each task. Start with `notes/README.md`
 - `src/` - reusable code you grow over the course
 - `notebooks/` - scratch exploration
 - `app/` - the API and demo (Days 12-13)
 - `docs/` - model card and presentation
 
 ## Workflow for every day
+0. Read the day's teaching note in `notes/` before the session
 1. `git checkout main && git pull`
 2. `git checkout -b dayNN-name` (the branch name is given in each assignment README)
 3. Do the work, commit often
